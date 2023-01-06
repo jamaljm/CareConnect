@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 export default function Ambulancebanner() {
   return (
     <div className="w-full sm:w-1/2 xl:w-1/3">
