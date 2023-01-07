@@ -5,7 +5,7 @@ export default function Banner() {
   return (
      <div className="w-full sm:w-1/2 xl:w-1/3">
                             <div className="">
-                                <div className="w-full min-w-40 p-4 bg-[url('/images/signupbg.jpg')] bg-hero bg-no-repeat bg-cover bg-center rounded-t-2xl dark:bg-gray-700">
+                                <div className="w-full min-w-40 p-4 bg-[url('/images/signupbg.jpg')] bg-hero bg-no-repeat bg-cover bg-center rounded-t-2xl ">
                                     <div className="flex items-center justify-between mb-6">
                                         <div className="flex items-center">
                                             <span className="relative p-2 bg-blue-100 rounded-xl">
