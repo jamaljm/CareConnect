@@ -95,10 +95,12 @@ function Maparea(props) {
   return loading ? (
     <div>Loading...</div>
   ) : (
-    <>
-    <div style={{}}>{name}</div>
+          <>
+    <div className="bg-blue-200 rounded-sm w-full py-3 px-9">         
+    <div style={{}}><span className="font-lg font-bold ">{name}</span></div>
     <div style={{}}>{driverName}</div>
-    <div style={{}}>{phoneNumber}</div>
+                  <div style={{}}>{phoneNumber}</div>
+                  </div> 
     
     <Map google={props.google} style={mapStyles} initialCenter={curLatLng} zoom={15.5}>
       <Marker />
