@@ -15,6 +15,5 @@ Link - https://careconnect.vercel.app
 
 ## TOOLKIT
 
-<img src="https://worldvectorlogo.com/logo/next-js" alt="Next Js Logo" width="50" height="50"/>
-<img src="https://worldvectorlogo.com/logo/firebase-1" alt="CSS Logo" width="50" height="50"/>
+[![My Skills](https://skillicons.dev/icons,nextjs,ableton](https://skillicons.dev)
 
