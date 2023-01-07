@@ -39,7 +39,7 @@ export default function Sidebar() {
                                 <img alt='' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVR4nOXWy2sTQRwH8F/V4oNCkQqiIP4RSYMtSA7NIUIphZ1JTJt2VsUIFUU8FaEEL57Ek5ei3bWFiBS9+AaheYmlWl9oqdWGsLupkEtFsTRK7Vc2NcXUfcT2JH5hLsuP+bC/mZ1Zov8u8Hj21FTn929bP+L1Bmqqa24OuRcNUxNUasMobber8SO+RSrIgunitmTIk0wXt7gmh+OIb3IHErQTCn2ESoBC41Y1PBdrZLqc5PnTCL9JIPLiEcJvR8C0k2C6uBN8f2qrM6LSgTKwgixjkHasBSRDngh9OI/u9BdEx7A6ujPzYPmzkAz5ojMySPVQ6D4UWoJKl2yB1EIVUBmRiecmssiLfQ3ubRulzdZAHNH0V0ugPJLfwPSjkApyq/XELS37rZ5XAObwBqsjVSojvNDTYo14vX47oGMmjl3X5xHKGo5I5Okzc/EX2udiVWtpm7UtCoxNo3G4hFDGBsp8AsufgaSLC+sCKhMFTOhaCTyjVQPpz+C5c2CGeBibjNWjtXUvfL6D9kCxr8FpkQNrod8AkRflIwVEdfB46m0RyRBKaHbAcZHbTGhkEezxNHiuvwpwzeHcsd2SLi91PZl13kVjQFv6JYLv/hJYeYveQ0w7gWhy2RlJ/9miSqDQPqg0gKtk+UkQ10WQazFEkz/WBZiBQuqvoylBVuks9DRJhvjeNT5ju015rt88Oh7YtQhD1A6FXkOlTrILM+TL5kTd2WL1AZidcwVqCny+HnMCpot7ZtvCU0OIvLqL8NQVMP04mC7f3BBQrVEdN44wyRA3JEOkJEMkuNbbYT53uylrvUE3dOejxn+BfzM/AbSGnKlUiuldAAAAAElFTkSuQmCC"/>
                             </span>
                             <span className="mx-4 text-sm font-bold">
-                                Medicin Finder
+                                Medicine Finder
                             </span>
                         </Link>
                         
