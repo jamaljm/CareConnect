@@ -39,9 +39,9 @@ export default function Medicinbanner() {
                                     </p>
                                     <ul>
                                         <li className="flex items-center my-6 space-x-2">
-                                            <a href="#" className="relative block">
+                                            <Link href="#" className="relative block">
                                                 <img alt="profil" src="/images/person/1.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </a>
+                                            </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
                                                     Charlie Rabiller
@@ -52,9 +52,9 @@ export default function Medicinbanner() {
                                             </div>
                                         </li>
                                         <li className="flex items-center my-6 space-x-2">
-                                            <a href="#" className="relative block">
+                                            <Link href="#" className="relative block">
                                                 <img alt="profil" src="/images/person/5.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </a>
+                                            </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
                                                     Marie Lou
@@ -65,9 +65,9 @@ export default function Medicinbanner() {
                                             </div>
                                         </li>
                                         <li className="flex items-center my-6 space-x-2">
-                                            <a href="#" className="relative block">
+                                            <Link href="#" className="relative block">
                                                 <img alt="profil" src="/images/person/6.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </a>
+                                            </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
                                                     Ivan Buck
@@ -78,9 +78,9 @@ export default function Medicinbanner() {
                                             </div>
                                         </li>
                                         <li className="flex items-center my-6 space-x-2">
-                                            <a href="#" className="relative block">
+                                            <Link href="#" className="relative block">
                                                 <img alt="profil" src="/images/person/7.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </a>
+                                            </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
                                                     Marina Farga
