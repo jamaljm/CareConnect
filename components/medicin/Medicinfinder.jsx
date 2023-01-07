@@ -127,7 +127,7 @@ function check(text) {
 
  
 }
-
+}
 
 
 const Medicinfinder = () => {
