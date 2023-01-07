@@ -67,6 +67,36 @@ function check(text) {
       </div>
       )
   }
+  else if (v.includes(a)) {
+    return (
+      <div class="card">
+          <div className="imgBx">
+              <img src="https://img.freepik.com/premium-vector/tablet-capsule-medicine-icon-illustration-healthcare-medical-icon-concept-isolated_138676-882.jpg?w=2000" alt='where are you'/>
+          </div>
+          <div className="content">
+          <div className="details">
+              <h2>
+                  ventolin<br></br><span>treat fever and mild pain </span>
+              </h2>
+              <div className="data">
+                  An analgesic and antipyretic drug that is used to temporarily relieve mild-to-moderate pain and fever. It is commonly included as an ingredient in cold and flu medications and is also used on its own.
+  
+  
+              </div>
+  
+              <div className="actionBtn">
+                  <button>Buy Now</button>
+                  <button>Know more</button>
+              </div>
+          </div>
+  
+          </div>
+  
+  
+      </div>
+      )
+  }
+
  
 }
 
