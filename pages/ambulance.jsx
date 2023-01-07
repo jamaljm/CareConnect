@@ -14,8 +14,8 @@ export default function ambulance() {
                 <div className="h-screen w-full pt-2 pb-24 pl-2 pr-2 sm:overflow-hidden overflow-auto md:pt-0 md:pr-0 md:pl-0">
                     <div className="flex w-full flex-col gap-5 flex-wrap sm:flex-row ">
               <Map />        
-              {/* <Ambulancebanner />
-                       <Medicinbanner /> */}
+              <Ambulancebanner />
+                       {/* <Medicinbanner /> */}
                     </div>
                 </div>
             </div>
