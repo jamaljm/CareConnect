@@ -14,6 +14,4 @@ Link - https://careconnect.vercel.app
 # PROJECT UI
 
 ## TOOLKIT
-
-[(https://skillicons.dev/icons,nextjs,ableton](https://skillicons.dev)]
-
+[![My Skills](https://skillicons.dev/icons?i=nextjs)](https://skillicons.dev)
