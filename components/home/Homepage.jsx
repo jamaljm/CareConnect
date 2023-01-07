@@ -17,8 +17,8 @@ export default function Homepage() {
                     <div className="flex flex-col flex-wrap sm:flex-row ">
               <Banner />
               
-                       <Ambulancebanner />
-                       <Medicinbanner />
+                       {/* <Ambulancebanner />
+                       <Medicinbanner /> */}
                     </div>
                 </div>
             </div>
