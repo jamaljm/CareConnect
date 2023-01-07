@@ -33,7 +33,7 @@ export default function Banner() {
                                 </div>
                             </div>
                             <div className="">
-                                <div className="w-full p-4 pt-0 bg-white shadow-lg rounded-b-2xl dark:bg-gray-700">
+                                <div className="w-full p-4 pt-0 bg-white shadow-lg rounded-b-2xl ">
                                     <div className="flex items-center justify-between mb-6">
                                         <div className="flex items-center">
                                      
