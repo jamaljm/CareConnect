@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../consult/Card'
 
 export default function consultbaner() {
   return (
