@@ -5,8 +5,10 @@ import { getDatabase, ref, set } from "firebase/database";
 
 
 const mapStyles = {
-  width: "100%",
-  height: "100%",
+  width: "50%",
+    height: "80%",
+    
+  
 };
 
 //firebase real-time
@@ -135,7 +137,7 @@ function Maparea(props) {
           setPhoneNumber("+91-9538762310")
         }}
         icon={{
-          url: "https://cdn-icons-png.flaticon.com/512/1834/1834905.png",
+          url: "https://img.icons8.com/emoji/48/null/ambulance-emoji.png",
           anchor: new google.maps.Point(32, 32),
           scaledSize: new google.maps.Size(64, 64),
         }}
@@ -149,7 +151,7 @@ function Maparea(props) {
             setPhoneNumber("+91-9538762310")
           }}
           icon={{
-            url: "https://cdn-icons-png.flaticon.com/512/1834/1834905.png",
+            url: "https://img.icons8.com/emoji/48/null/ambulance-emoji.png",
             anchor: new google.maps.Point(32, 32),
             scaledSize: new google.maps.Size(64, 64),
           }}
@@ -163,7 +165,7 @@ function Maparea(props) {
             setPhoneNumber("+91-9538762310")
           }}
           icon={{
-            url: "https://cdn-icons-png.flaticon.com/512/1834/1834905.png",
+            url: "data:image/png;base64,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",
             anchor: new google.maps.Point(32, 32),
             scaledSize: new google.maps.Size(64, 64),
           }}
