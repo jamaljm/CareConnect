@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Sidebar from '../components/sidebar/Sidebar'
-import Video from '../components/videocall/Video'
+import Video from '../components/videocall/Videocall'
 
 export default function videocall() {
   return (

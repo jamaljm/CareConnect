@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Video() {
+export default function Videocall() {
   return (
      <div className="w-full">
                             <div className="">
