@@ -16,7 +16,10 @@
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tesseract.js": "^2.1.1"
+    "tesseract.js": "^2.1.1",
+        "@googlemaps/js-api-loader": "^1.15.1",
+    "@googlemaps/react-wrapper": "^1.1.35",
+     "google-maps-react": "^2.0.6"
    
   },
   "devDependencies": {
