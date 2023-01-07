@@ -7,7 +7,7 @@ export default function Card() {
     <div className="w-1/3 bg-cover bg-[url('/images/signupbg.jpg')] bg-hero bg-no-repeat bg-center ">
     </div> 
     <div className="w-2/3 p-4">
-      <h1 className="text-black font text-2xl">Allen reji</h1>
+      <h1 className="text-black font text-xl">Allen reji</h1>
                   <p className="mt-2 text-gray-600 text-sm">
         </p>
       <div className="flex item-center mt-2">
@@ -29,7 +29,7 @@ export default function Card() {
       </div>
       <div className="flex item-center justify-between mt-3">
         <h1 className="text-gray-700 font-bold text-xl">₹250</h1>
-        <button className="px-3 py-2 bg-blue-800 text-white text-xs font-bold uppercase rounded">Video call</button>
+        <button className="px-4 py-2 bg-blue-500 text-white text-xs font-bold uppercase rounded">Video call</button>
       </div>
     </div>
   </div>

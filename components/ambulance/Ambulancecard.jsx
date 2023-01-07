@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Ambulancecard() {
@@ -29,8 +30,9 @@ export default function Ambulancecard() {
         </svg>
       </div>
       <div className="flex item-center justify-between mt-3">
-        <h1 className="text-gray-700 font-bold text-xl">₹250</h1>
-        <button className="px-3 py-2 bg-blue-800 text-white text-xs font-bold uppercase rounded">Video call</button>
+                      <h1 className="text-gray-700 font-bold text-lg">kochi</h1>
+                      <Link href="tel:956456456565">
+        <button className="px-3 py-2 bg-blue-800 text-white text-xs font-bold uppercase rounded">call</button></Link>
       </div>
     </div>
   </div>
