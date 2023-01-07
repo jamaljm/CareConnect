@@ -1,11 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Sidebar from '../components/sidebar/2'
 import Navbar from '../components/navbar/Navbar'
 import Card from '../components/ambulance/Ambcard'
 import Ambulancebanner from '../components/ambulance/Maparea'
 
 
+
 export default function videocallpage() {
+
+    function getLocalStream() {
+  navigator.mediaDevices
+    .getUserMedia({ video: false, audio: true })
+    .then((stream) => {
+      window.localStream = stream; // A
+      window.localAudio.srcObject = stream; // B
+      window.localAudio.autoplay = true; // C
+    })
+    .catch((err) => {
+      console.error(`you got an error: ${err}`);
+    });
+        
+       
+    }
+     useEffect(() => {
+            getLocalStream();
+        }, []);
+
   return (
     <main className="relative h-screen sm:overflow-hidden bg-gray-100 dark:bg-gray-800 rounded-2xl">
     <div className="flex items-start justify-between">
@@ -18,6 +38,7 @@ export default function videocallpage() {
                               src="https://careconnect-vc.vercel.app/"
                               width="100%"
                               height="100%"
+                              allow="camera; microphone"
                                 ></iframe>
 
                        {/* <Medicinbanner /> */}
