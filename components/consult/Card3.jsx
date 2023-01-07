@@ -7,8 +7,8 @@ export default function Card3() {
     <div className="w-1/3 bg-cover bg-[url('/images/doc3.jpg')] bg-hero bg-no-repeat bg-center ">
     </div> 
     <div className="w-2/3 p-4">
-      <h1 className="text-black font text-2xl">Allen reji</h1>
-                  <p className="mt-2 text-gray-600 text-sm">
+      <h1 className="text-black font text-xl">Dr Josef TJ</h1>
+                  <p className="mt-2 text-gray-600 text-sm">Physiotherapist
         </p>
       <div className="flex item-center mt-2">
         <svg className="w-5 h-5 fill-current text-gray-700" viewBox="0 0 24 24">

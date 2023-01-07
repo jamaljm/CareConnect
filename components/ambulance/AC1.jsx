@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function Ambulancecard() {
+export default function AC1() {
   return (
      <div className="py-0 w-full sm:w-full">
   <div className="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
