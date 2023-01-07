@@ -1,5 +1,5 @@
 import React from 'react'
-import Card1 from '../consult/Card1'
+import Card1 from '../consult/'
 
 
 export default function Doctors() {

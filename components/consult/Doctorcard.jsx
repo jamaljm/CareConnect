@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../consult/Card'
+import Card from './Widthcard'
 
 export default function consultbaner() {
   return (
