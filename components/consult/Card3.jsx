@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function Card1() {
+export default function Card3() {
   return (
     <div className="py-0 w-full sm:w-2/5">
   <div className="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
-    <div className="w-1/3 bg-cover bg-[url('/images/doc1.jpg')] bg-hero bg-no-repeat bg-center ">
+    <div className="w-1/3 bg-cover bg-[url('/images/doc3.jpg')] bg-hero bg-no-repeat bg-center ">
     </div> 
     <div className="w-2/3 p-4">
-      <h1 className="text-black font text-xl">Allen reji</h1>
+      <h1 className="text-black font text-2xl">Allen reji</h1>
                   <p className="mt-2 text-gray-600 text-sm">
         </p>
       <div className="flex item-center mt-2">
