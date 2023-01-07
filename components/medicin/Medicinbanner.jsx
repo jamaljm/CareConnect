@@ -1,4 +1,7 @@
 import React from 'react'
+import Card from '../consult/Card1'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Medicinbanner() {
   return (
