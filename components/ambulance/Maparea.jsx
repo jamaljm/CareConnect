@@ -27,7 +27,12 @@ const wait = timeout => {
   return new Promise(resolve => setTimeout(resolve, timeout));
 };
 
-function App(props) {
+function Maparea(props) {
+   const lat1= 10.0261;
+  const lng1= 76.3125;
+  const lat2= 10.0279;
+  const lng2= 76.3078;
+  
   const [curLatLng, setCurLatLng] = useState({ lat: 0.0, lng: 0.0 });
   const [loading, setLoading] = useState(true);
 
@@ -35,29 +40,29 @@ function App(props) {
   const [driverName, setDrivername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
 
-  const [pathCoordinates1, setCoordinates1] = useState([
-    { lat : 28.6001927, lng : 77.3717128},
-    { lat: 28.5777, lng: 77.3317 },
+  const [pathCoordinates1, setCoordinates1] = useState([                      
+    { lat : lat1, lng : lng1 },
+    { lat: lat1, lng: lng1 },
   ])
   
   const [pathCoordinates2, setCoordinates2] = useState([
-    { lat : 28.6001927, lng : 77.3717128 },
-    { lat: 29.5777, lng: 77.3317 },
+    { lat : lat2, lng : lng2 },
+    { lat: lat2, lng: lng2 },
   ])
   
   const [pathCoordinates3, setCoordinates3] = useState([
-    { lat : 28.6001927, lng : 77.3717128},
-    { lat: 28.5640734811412018, lng: 77.3985864305545 },
+    { lat : 10.0317, lng : 76.3087},
+    { lat : 10.0317, lng : 76.3087},
   ])
 
   useEffect(() => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition((pos) => {
         // console.log(pos.coords)
-        setCoordinates1([ { lat: pos.coords.latitude, lng: pos.coords.longitude } , pathCoordinates1[1]])
-        setCoordinates2([ { lat: pos.coords.latitude, lng: pos.coords.longitude } , pathCoordinates2[1]])
-        setCoordinates3([ { lat: pos.coords.latitude, lng: pos.coords.longitude } , pathCoordinates3[1]])
-        setCurLatLng({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        setCoordinates1([ { lat: lat1, lng: lng1 } , pathCoordinates1[1]])
+        setCoordinates2([ { lat: lat1, lng: lng1 }  , pathCoordinates2[1]])
+        setCoordinates3([ { lat: lat1, lng: lng1 }  , pathCoordinates3[1]])
+        setCurLatLng({ lat: lat1, lng: lng1 });
         setLoading(false);
       });
     }
@@ -79,11 +84,11 @@ function App(props) {
     var p2 = { lat: (p2Lat + i), lng: (p2Lng + i) }
     var p3 = { lat: (p3Lat + i), lng: (p3Lng + i) }
   
-    setCoordinates1([ { lat : 28.6001927, lng : 77.3717128} , p1])
-    setCoordinates2([ { lat : 28.6001927, lng : 77.3717128} , p2])
-    setCoordinates3([ { lat : 28.6001927, lng : 77.3717128} , p3])
+    setCoordinates1([ { lat : lat1, lng : lng1} , p1])
+    setCoordinates2([ { lat : lat1, lng : lng1} , p2])
+    setCoordinates3([ { lat : lat1, lng : lng1} , p3])
   });
-
+  
 
   return loading ? (
     <div>Loading...</div>
@@ -93,7 +98,7 @@ function App(props) {
     <div style={{}}>{driverName}</div>
     <div style={{}}>{phoneNumber}</div>
     
-    <Map google={props.google} style={mapStyles} initialCenter={curLatLng}>
+    <Map google={props.google} style={mapStyles} initialCenter={curLatLng} zoom={15.5}>
       <Marker />
       <Polyline
         path={pathCoordinates1}
@@ -173,4 +178,4 @@ function App(props) {
 
 export default GoogleApiWrapper({
   apiKey: "AIzaSyCK0y5Dmu-kpFGQ-wvT3i7zDUCd6iyj_n4",
-})(Mapparea);
+})(Maparea);
