@@ -38,7 +38,7 @@ function check(text) {
     )
   }
 
-  if (v.includes(a)) {
+  else if (v.includes(a)) {
     return (
       <div class="card">
           <div className="imgBx">
@@ -96,6 +96,34 @@ function check(text) {
       </div>
       )
   }
+
+  else {
+    return (
+      <div class="card">
+          <div className="imgBx">
+              <img src="https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-1932.jpg" alt='where are you'/>
+          </div>
+          <div className="content">
+          <div className="details">
+              <h2>
+                  Sorry<br></br><span>We dont have that one yet </span>
+              </h2>
+              <div className="data">
+                Your input is noted and our team will be working on it soon
+  
+              </div>
+  
+              {/* <div className="actionBtn">
+                  <button>Buy Now</button>
+                  <button>Know more</button>
+              </div> */}
+          </div>
+  
+          </div>
+  
+  
+      </div>
+      )
 
  
 }
