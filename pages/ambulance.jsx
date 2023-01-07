@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from '../components/sidebar/Sidebar'
+import Sidebar from '../components/sidebar/2'
 import Navbar from '../components/navbar/Navbar'
 import Card from '../components/ambulance/Ambcard'
 import Ambulancebanner from '../components/ambulance/Maparea'

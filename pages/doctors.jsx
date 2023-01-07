@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from '../components/sidebar/Sidebar' 
+import Sidebar from '../components/sidebar/1' 
 import Navbar from '../components/navbar/Navbar'
 import Doctors from '../components/doctors/Doctors'
 
