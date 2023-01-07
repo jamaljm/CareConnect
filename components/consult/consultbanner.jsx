@@ -1,7 +1,7 @@
 import React from 'react'
 import Question from './Question'
 
-export default function consultbaner() {
+export default function Consultbaner() {
   return (
      <div className="w-full sm:w-1/2 xl:w-1/3">
                             <div className="">
