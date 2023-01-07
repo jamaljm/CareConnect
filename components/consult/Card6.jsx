@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Card6() {
   return (
@@ -30,8 +31,9 @@ export default function Card6() {
       </div>
       <div className="flex item-center justify-between mt-3">
         <h1 className="text-gray-700 font-bold text-xl">₹300</h1>
-        <button className="px-3 py-2 bg-blue-800 text-white text-xs font-bold uppercase rounded">Video call</button>
-      </div>
+ <Link href="/videocallpage">
+              <button className="px-3 py-2 bg-blue-800 text-white text-xs font-bold uppercase rounded">Video call</button>
+              </Link>      </div>
     </div>
   </div>
 </div>

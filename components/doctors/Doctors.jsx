@@ -18,7 +18,7 @@ export default function Doctors() {
                                        <Card2 />
                                        <Card3 />
                       <Card4 />
-                       <Card5 />    <Card6 />
+                       <Card5 />   
                        <Card7 />
                                      
                                     </div>

@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Card2() {
+export default function Card5() {
   return (
-    <div className="py-0 w-full sm:w-2/5">
+    <div className="py-0 w-full">
   <div className="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
-    <div className="w-1/3 bg-cover bg-[url('/images/doc2.jpg')] bg-hero bg-no-repeat bg-center ">
+    <div className="w-1/3 bg-cover bg-[url('/images/doc5.jpg')] bg-hero bg-no-repeat bg-center ">
     </div> 
     <div className="w-2/3 p-4">
-      <h1 className="text-black font text-xl">Dr Rajesh Koothrapalli</h1>
-                  <p className="mt-2 text-gray-600 text-sm"> Orthopedic
+      <h1 className="text-black font text-xl">Dr Allen reji</h1>
+                  <p className="mt-2 text-gray-600 text-sm"> Paediatrician
         </p>
       <div className="flex item-center mt-2">
         <svg className="w-5 h-5 fill-current text-gray-700" viewBox="0 0 24 24">

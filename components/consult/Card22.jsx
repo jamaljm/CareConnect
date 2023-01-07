@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Card2() {
   return (
-    <div className="py-0 w-full sm:w-2/5">
+    <div className="py-0 w-full">
   <div className="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
     <div className="w-1/3 bg-cover bg-[url('/images/doc2.jpg')] bg-hero bg-no-repeat bg-center ">
     </div> 
