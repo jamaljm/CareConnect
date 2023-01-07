@@ -1,5 +1,4 @@
 import React from 'react'
-import Question from './question'
 import Card from './Card'
 
 export default function consultbaner() {

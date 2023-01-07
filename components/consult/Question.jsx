@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
 import { useState } from 'react'
-import { Key } from 'react';
 
 export default function Question() {
 

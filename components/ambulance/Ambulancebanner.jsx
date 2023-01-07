@@ -9,7 +9,7 @@ export default function Ambulancebanner() {
                                 <div className="w-full bg-white shadow-lg rounded-2xl dark:bg-gray-700">
                                     <p className="p-4 font-bold text-black text-md dark:text-white">
                                         My Tasks
-                                        <span className="ml-2 text-sm text-gray-500 dark:text-gray-300 dark:text-white">
+                                        <span className="ml-2 text-sm text-gray-500">
                                             (05)
                                         </span>
                                     </p>

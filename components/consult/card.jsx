@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function card() {
+export default function Card() {
   return (
     <div className="py-0 w-full">
   <div className="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
