@@ -40,7 +40,7 @@ export default function Medicinbanner() {
                                     <ul>
                                         <li className="flex items-center my-6 space-x-2">
                                             <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/1.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
+                                                <Image alt="profil" src="/images/person/1.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
                                             </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
@@ -53,7 +53,7 @@ export default function Medicinbanner() {
                                         </li>
                                         <li className="flex items-center my-6 space-x-2">
                                             <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/5.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
+                                                <Image alt="profil" src="/images/person/5.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
                                             </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
@@ -66,7 +66,7 @@ export default function Medicinbanner() {
                                         </li>
                                         <li className="flex items-center my-6 space-x-2">
                                             <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/6.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
+                                                <Image alt="profil" src="/images/person/6.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
                                             </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
@@ -79,7 +79,7 @@ export default function Medicinbanner() {
                                         </li>
                                         <li className="flex items-center my-6 space-x-2">
                                             <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/7.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
+                                                <Image alt="profil" src="/images/person/7.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
                                             </Link>
                                             <div className="flex flex-col">
                                                 <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">

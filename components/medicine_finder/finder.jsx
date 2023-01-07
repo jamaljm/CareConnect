@@ -12,7 +12,7 @@ function check(text) {
     return (
     <div class="card">
         <div className="imgBx">
-            <img src="https://img.freepik.com/premium-vector/tablet-capsule-medicine-icon-illustration-healthcare-medical-icon-concept-isolated_138676-882.jpg?w=2000" alt='where are you'></img>
+            <Image src="https://img.freepik.com/premium-vector/tablet-capsule-medicine-icon-illustration-healthcare-medical-icon-concept-isolated_138676-882.jpg?w=2000" alt='where are you'/>
         </div>
         <div className="content">
         <div className="details">
@@ -42,7 +42,7 @@ function check(text) {
     return (
       <div class="card">
           <div className="imgBx">
-              <img src="https://img.freepik.com/premium-vector/tablet-capsule-medicine-icon-illustration-healthcare-medical-icon-concept-isolated_138676-882.jpg?w=2000" alt='where are you'></img>
+              <Image src="https://img.freepik.com/premium-vector/tablet-capsule-medicine-icon-illustration-healthcare-medical-icon-concept-isolated_138676-882.jpg?w=2000" alt='where are you'/>
           </div>
           <div className="content">
           <div className="details">
@@ -133,7 +133,7 @@ const Medicine_finder = () => {
                 value="Find"
               />
               <div className='imagebox2'>
-              <img src="https://img.freepik.com/premium-vector/tablet-capsule-medicine-icon-illustration-healthcare-medical-icon-concept-isolated_138676-882.jpg?w=2000" alt='where are you'></img>
+              <Image src="https://img.freepik.com/premium-vector/tablet-capsule-medicine-icon-illustration-healthcare-medical-icon-concept-isolated_138676-882.jpg?w=2000" alt='where are you'/>
               </div>
               
             </>
