@@ -1,6 +1,6 @@
 import React from 'react';
 import Tesseract from 'tesseract.js';
-import './card.css';
+import './Card.css';
 import Image from 'next/image';
 import { useState } from 'react';
 
