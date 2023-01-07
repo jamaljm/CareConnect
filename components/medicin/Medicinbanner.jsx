@@ -21,9 +21,9 @@ export default function Medicinbanner() {
                                     </div>
                                    
                   <div className='flex mt-64 mb-6 px-5 justify-center flex-col text-center'>
-                      <h1 className="text-2xl font-semibold mt-44  text-white">Find any Medicin</h1>
+                      <h1 className="text-2xl font-semibold mt-44 font-display text-white">Find any Medicin</h1>
                       
-                        <Link href="/medicine"><button class="inline-flex w-full gap-2 mt-4 justify-center items-center px-4 py-4 bg-gradient-to-r from-blue-700 to-blue-400 shadow-sm hover:bg-red-700 text-white text-sm font-medium rounded-md">
+                        <Link href="/medicine"><button class="inline-flex font-body w-full gap-2 mt-4 justify-center items-center px-4 py-4 bg-gradient-to-r from-blue-700 to-blue-400 shadow-sm hover:bg-red-700 text-white text-sm font-medium rounded-md">
 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABAklEQVR4nM2VTQ6CMBCFewO4g7pED6AeBPbqxp+NiSsToxsTjoFeSt3qNT7TpMZSQJlGiJNM0j763mNKmFGqrQBCYApsrIxq8AYOR2sEZeI3IAOOVkY1DPoOJzNabxNgph94l+8EcAImNrDTae3HwNop/VPqs+MqvRwArIALkDqlf8rUcBZ1DB5ARwkD6AH3KoPo9UEBLPwiXOPqlb0Jv1hXhkOIhbjYIBHiYgN8139pEEtwH4NEgrd7RTT9o1FsFd2vpQpbhW2wBK7AXtBND4Yz/2pg9iNgK+im+uywSk+ZMdfowAnNmDt5zOTI4ZzNdRXmcqBdPWayNrA5WiMv3mQ8Aao9ECbJn1NzAAAAAElFTkSuQmCC"/>
 	Scan now
   </button></Link>

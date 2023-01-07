@@ -28,15 +28,15 @@ export default function Login() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex items-center justify-center px-4 py-10 bg-white sm:px-6 lg:px-8 sm:py-16 lg:py-24">
           <div className="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
-            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">
+            <h2 className="text-3xl font-bold font-display leading-tight text-black sm:text-4xl">
               Login Now
             </h2>
-            <p className="mt-2 text-base text-gray-600">
+            <p className="mt-2 text-base mr-2 text-gray-600">
               Don't have account
               <Link
                 href="/signup"
                 title=""
-                className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700"
+                className="font-medium font-body text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700"
               >
                 Signup
               </Link>
@@ -44,7 +44,7 @@ export default function Login() {
             <form className="mt-8" onSubmit={handleLogin}>
               <div className="space-y-5">
                 <div>
-                  <label className="text-base font-medium text-gray-900">
+                  <label className="text-base font-medium font-body text-gray-900">
                     {" "}
                     Email address{" "}
                   </label>
@@ -67,7 +67,7 @@ export default function Login() {
 
                 <div>
                   <div className="flex items-center justify-between">
-                    <label className="text-base font-medium text-gray-900">
+                    <label className="text-base font-medium font-body text-gray-900">
                       {" "}
                       Password{" "}
                     </label>
@@ -91,9 +91,9 @@ export default function Login() {
 
                 <button
                   type="submit"
-                  className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
+                  className="inline-flex font-body items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
                 >
-                  Signup
+                  Login
                 </button>
               </div>
             </form>
@@ -113,7 +113,7 @@ export default function Login() {
                     <path d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"></path>
                   </svg>
                 </div>
-                Sign up with Google
+                Login with Google
               </button>
             </div>
           </div>

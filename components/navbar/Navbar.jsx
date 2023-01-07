@@ -1,8 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useAuth } from '../../context/AuthContext'
+import { useRouter } from 'next/router'
+
 
 export default function Navbar() {
+
+  
+  const { user, logout } = useAuth()
+  const router = useRouter()
+
+        
   return (
      <header className="z-40 items-center w-full h-16 bg-white shadow-lg  rounded-2xl">
                 <div className="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center">
@@ -25,11 +34,32 @@ export default function Navbar() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="relative flex items-center justify-end w-1/4 p-1 ml-5 mr-4 sm:mr-0 sm:right-auto">
-                                <Link href="/dashboard" className="relative block">
+                           
+                 
+           <div className="relative flex gap-4 items-center justify-end w-1/4 p-1 ml-5 mr-4 sm:mr-0 sm:right-auto">
+             {user ? (
+                  <button className='inline-flex justify-end items-center px-4 py-2 bg-gradient-to-r from-blue-900 to-blue-700 shadow-sm hover:bg-red-700 text-white text-sm font-medium rounded-md' onClick={() => {
+                    logout()
+                    router.push('/login')
+                      }} >Logout</button>
+                      ) : (
+              <>
+                <Link href="/signup" passHref>
+                  <button>Signup</button>
+                </Link>
+                <Link href="/login" passHref>
+                  <button>Login</button>
+                </Link>
+              </>
+          )}                    
+            
+            <Link href="/dashboard" className="relative block">
                                     <img alt="profil" src="https://avatars.githubusercontent.com/u/34004150?v=4" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                </Link>
-                            </div>
+            </Link>
+            
+            
+                  </div>
+                  
                         </div>
                     </div>
                 </header>

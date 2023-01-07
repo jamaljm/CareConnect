@@ -28,15 +28,15 @@ export default function Signup() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="flex items-center justify-center px-4 py-10 bg-white sm:px-6 lg:px-4 sm:py-16 lg:py-24">
           <div className="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
-            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">
+            <h2 className="text-3xl font-bold font-display leading-tight text-black sm:text-4xl">
               Sign Up Now
             </h2>
-            <p className="mt-2 text-base text-gray-600">
+            <p className="mt-2 text-base gap-2 text-gray-600">
               Already have account
               <a
                 href="#"
                 title=""
-                className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700"
+                className="font-medium font-body text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700"
               >
                 Login
               </a>
@@ -45,7 +45,7 @@ export default function Signup() {
           
               <div className="space-y-5">
                 <div>
-                  <label className="text-base font-medium text-gray-900">
+                  <label className="text-base font-medium font-body text-gray-900">
                     {" "}
                     Email address{" "}
                   </label>
@@ -69,7 +69,7 @@ export default function Signup() {
 
                 <div>
                   <div className="flex items-center justify-between">
-                    <label className="text-base font-medium text-gray-900">
+                    <label className="text-base font-medium font-body text-gray-900">
                       {" "}
                       Password{" "}
                     </label>

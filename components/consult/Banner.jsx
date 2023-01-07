@@ -25,7 +25,7 @@ export default function Banner() {
                                     </div>
                                    
                   <div className=''>
-                    <h1 className="text-2xl font-semibold mt-52 text-white">Consult a doctor</h1>
+                    <h1 className="text-2xl font-display mt-52 text-white">Consult a doctor</h1>
                                     </div>
                                    
                                  
