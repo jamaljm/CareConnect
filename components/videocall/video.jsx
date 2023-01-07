@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function video() {
+export default function Video() {
   return (
      <div className="w-full">
                             <div className="">
