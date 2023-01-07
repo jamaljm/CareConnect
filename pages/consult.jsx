@@ -1,9 +1,5 @@
 import React from 'react'
 import Sidebar from '../components/sidebar/Sidebar'
-import Navbar from '../components/navbar/Navbar'
-import Consultbanner from '../components/consult/Consultbanner1'
-import Ambulancebanner from '../components/ambulance/Ambulancebanner'
-import Medicinbanner from '../components/medicin/Medicinbanner'
 import Doctorcard from '../components/consult/Doctorcard'
 import Chat from '../components/consult/Chat'
 

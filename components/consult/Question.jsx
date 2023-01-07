@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 export default function Question() {
 
-    // define answeroption
+    // // define answeroption
     
 
        const questions = [

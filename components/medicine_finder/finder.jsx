@@ -2,7 +2,6 @@ import React from 'react';
 import Tesseract from 'tesseract.js';
 import './Card.css';
 import Image from 'next/image';
-import { useState } from 'react';
 
 function check(text) {
   const p = "para";

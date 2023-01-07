@@ -2,8 +2,7 @@ import React from 'react'
 import Sidebar from '../sidebar/Sidebar'
 import Navbar from '../navbar/Navbar'
 import Consultbanner from '../consult/Consultbanner'
-import Ambulancebanner from '../ambulance/Ambulancebanner'
-import Medicinbanner from '../medicin/Medicinbanner'
+
 
 export default function Homepage() {
   return (

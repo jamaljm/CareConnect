@@ -1,7 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/sidebar/Sidebar'
 import Navbar from '../components/navbar/Navbar'
-import Video from '../components/videocall/Video'
 import Map from '../components/ambulance/Map'
 
 
