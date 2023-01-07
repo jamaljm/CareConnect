@@ -4,97 +4,38 @@ import Link from 'next/link'
 
 export default function Medicinbanner() {
   return (
-      <div className="w-full sm:w-1/2 xl:w-1/3">
-                            <div className="mb-4">
-                                <div className="p-4 bg-white shadow-lg rounded-2xl dark:bg-gray-700">
-                                    <div className="flex flex-wrap overflow-hidden">
-                                        <div className="w-full rounded shadow-sm">
-                                            <div className="flex items-center justify-between mb-4">
-                                                <div className="text-xl font-bold text-left text-black dark:text-white">
-                                                    Dec 2021
-                                                </div>
-                                                <div className="flex space-x-4">
-                                                    <button className="p-2 text-white bg-blue-500 rounded-full">
-                                                        <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24">
-                                                            <path fill="currentColor" d="M13.83 19a1 1 0 0 1-.78-.37l-4.83-6a1 1 0 0 1 0-1.27l5-6a1 1 0 0 1 1.54 1.28L10.29 12l4.32 5.36a1 1 0 0 1-.78 1.64z">
-                                                            </path>
-                                                        </svg>
-                                                    </button>
-                                                    <button className="p-2 text-white bg-blue-500 rounded-full">
-                                                        <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24">
-                                                            <path fill="currentColor" d="M10 19a1 1 0 0 1-.64-.23a1 1 0 0 1-.13-1.41L13.71 12L9.39 6.63a1 1 0 0 1 .15-1.41a1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19z">
-                                                            </path>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div className="-mx-2">
-                                            </div>
+      <div className="w-full sm:w-1/2 xl:w-1/4">
+                           <div className="">
+                                <div className="w-full min-w-40 p-4 bg-[url('/images/medbg.jpg')] bg-hero bg-no-repeat bg-cover bg-center rounded-2xl dark:bg-gray-700">
+                                    <div className="flex items-center justify-between mb-6">
+                                        <div className="flex items-center">
+                                            <span className="relative p-2 bg-blue-100 rounded-xl">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAADU0lEQVR4nO2VXUgUURTHt4Jegh6iXqqnHnTpIUjY0rKwZlb8AEtx090NBWclW1HXEBLKj9SoTPFFSkmzTDGN1AfzK3F1nRl3ZrW0FEQ0TXGbWbYgkxQtT9xbprkf7kpaDx74M2fuvef8uB/nXolky/5n+0rIfGYI2SDr6TnQJZV6bxr4y1lZ9wxxDFipFFhPT3bzwIRsbAnMSKVjfyWp0Wg92MULh5xpOvA091nuM8H4kRMMEcChNsMr8751AVl2Yg/Ni/0ML8J6RXMiz7LWA26BGc6SuDpRNzMJozl3wapWgFV9AUZz8nCbPeijagPUNvYBzQm9LX0fdrkBFjNXJmK7p8ASpQa0l3P5N7GQb4lW477VYEVcCgRHx0Nt4xugeaGhpgZ2rAs8nFeEQUgLLQ1YS//D+UV2wXKVBn9bO98Bwwt31gU2a7Uwl5sF3/p7YfGTFQv5qM0cr3UIRqJSssHAmoE1CZfcBk8l6WD2ShzMP34A30eGsZCP2qZ0yU7BSCnZ99B+zzOcQLgFHnhY53CpB8rq1wQj5d5/BjQvfjRwFg+XwUjjaVkYNJsUi4X88evZdk+1PbC/OhZKqzqA4cRRfc/UXpfBSP1VrTCeno2FfEc1fKOgAlJvFdsoPa8MOn9WQbvdk843vb3d09wPGym+ofeiDXgySdextIcbpUldctu/ASfpOmzAgyV1xUOF5bCRGiypK3bpcDXrR6C0Sg9P602oJl16KNoM41BW3QmVtUYwdJv/7OfETBswzQvpKwcVlbdCUNTlFbdRDrTT751CnzxnISQm4XeMOuEaNLUPL79evJBhO2OjcH5pQIt+BENJJQXegaFwOkyFE6HScARFV2SoRodjfILCwfdcJI5JTC9Yfng4i8JuLdMmIZnmhabCshd9KMg7MAw8vLxBKvPFSSK0V6dpTnxpT5W1nBGNORkSgWM8vHyAiIiB4CjtAsMLLQwnpgLANokz84+IPYGSoJki6FG/gF/LRzU7iiEjY/ajMWfCo+Dw8VNwxJcAUqUBUqkZcgpbaRkZGdtJJWVYdQUuEqpY0lkcqaIqVl+bcpWGchmMLECt3k2qqHxSSb1GM/WPpORrxSgUip1yJZUmV2lMcqVGT0ZqlG5Bt0yyAfYDB04s31kUcKEAAAAASUVORK5CYII=" />
+                          </span>
+                      </div>
+                                        <div className="flex items-center">
+                                           
+                                            <button className="text-gray-200">
+                                               
+                                            </button>
                                         </div>
                                     </div>
+                                   
+                  <div className='flex mt-64 mb-6 px-5 justify-center flex-col text-center'>
+                      <h1 className="text-2xl font-semibold mt-44  text-white">Find any Medicin</h1>
+                      
+                        <Link href="/medicine"><button class="inline-flex w-full gap-2 mt-4 justify-center items-center px-4 py-4 bg-gradient-to-r from-blue-700 to-blue-400 shadow-sm hover:bg-red-700 text-white text-sm font-medium rounded-md">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABAklEQVR4nM2VTQ6CMBCFewO4g7pED6AeBPbqxp+NiSsToxsTjoFeSt3qNT7TpMZSQJlGiJNM0j763mNKmFGqrQBCYApsrIxq8AYOR2sEZeI3IAOOVkY1DPoOJzNabxNgph94l+8EcAImNrDTae3HwNop/VPqs+MqvRwArIALkDqlf8rUcBZ1DB5ARwkD6AH3KoPo9UEBLPwiXOPqlb0Jv1hXhkOIhbjYIBHiYgN8139pEEtwH4NEgrd7RTT9o1FsFd2vpQpbhW2wBK7AXtBND4Yz/2pg9iNgK+im+uywSk+ZMdfowAnNmDt5zOTI4ZzNdRXmcqBdPWayNrA5WiMv3mQ8Aao9ECbJn1NzAAAAAElFTkSuQmCC"/>
+	Scan now
+  </button></Link>
+
+                                    </div>
+                                   
+                                 
+                                  
                                 </div>
                             </div>
-                            <div className="mb-4">
-                                <div className="w-full p-4 bg-white shadow-lg rounded-2xl dark:bg-gray-700">
-                                    <p className="font-bold text-black text-md dark:text-white">
-                                        Messages
-                                    </p>
-                                    <ul>
-                                        <li className="flex items-center my-6 space-x-2">
-                                            <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/1.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </Link>
-                                            <div className="flex flex-col">
-                                                <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
-                                                    Charlie Rabiller
-                                                </span>
-                                                <span className="ml-2 text-sm text-gray-400 dark:text-gray-300">
-                                                    Hey John ! Do you read the NextJS doc ?
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li className="flex items-center my-6 space-x-2">
-                                            <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/5.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </Link>
-                                            <div className="flex flex-col">
-                                                <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
-                                                    Marie Lou
-                                                </span>
-                                                <span className="ml-2 text-sm text-gray-400 dark:text-gray-300">
-                                                    No I think the dog is better...
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li className="flex items-center my-6 space-x-2">
-                                            <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/6.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </Link>
-                                            <div className="flex flex-col">
-                                                <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
-                                                    Ivan Buck
-                                                </span>
-                                                <span className="ml-2 text-sm text-gray-400 dark:text-gray-300">
-                                                    Seriously ? haha Bob is not a child !
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li className="flex items-center my-6 space-x-2">
-                                            <Link href="#" className="relative block">
-                                                <img alt="profil" src="/images/person/7.jpg" className="mx-auto object-cover rounded-full h-10 w-10 "/>
-                                            </Link>
-                                            <div className="flex flex-col">
-                                                <span className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">
-                                                    Marina Farga
-                                                </span>
-                                                <span className="ml-2 text-sm text-gray-400 dark:text-gray-300">
-                                                    Do you need that design ?
-                                                </span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                       
                         </div>
   )
 }
