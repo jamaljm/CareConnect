@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Map() {
+export default function Mapcomponent() {
   return (
     <div>
       

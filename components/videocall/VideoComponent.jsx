@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Videocall() {
+export default function Videocomponent() {
   return (
-     <div className="w-full">
+    <div className="w-full">
                             <div className="">
                                 <div className="w-full h-screen p-4 bg-white rounded-t-2xl dark:bg-gray-700">
                                     <div className="flex items-center justify-between mb-6">
