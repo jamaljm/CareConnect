@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import router, { useRouter } from "next/router";
+import Link from "next/link";
 
 export default function Signup() {
   const { user, signup } = useAuth();
@@ -33,13 +34,13 @@ export default function Signup() {
             </h2>
             <p className="mt-2 text-base gap-2 text-gray-600">
               Already have account
-              <a
-                href="#"
+              <Link
+                href="/login"
                 title=""
                 className="font-medium font-body text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700"
               >
                 Login
-              </a>
+              </Link>
             </p>
 <form className="mt-8" onSubmit={handleSignup} >
           
