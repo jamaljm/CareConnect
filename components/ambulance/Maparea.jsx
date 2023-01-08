@@ -182,8 +182,8 @@ function Maparea(props) {
          <Marker
         onClick={()=>{
           setName("Ambulance 1")
-          setDrivername("Mr Sundar")
-          setPhoneNumber("+91-9538762310")
+          setDrivername("Mr Karthik")
+          setPhoneNumber("+91-9534532310")
         }}
         icon={{
           url: "https://img.icons8.com/emoji/48/null/ambulance-emoji.png",
@@ -196,8 +196,8 @@ function Maparea(props) {
         <Marker
           onClick={()=>{
             setName("Ambulance 2")
-            setDrivername("Mr Ram")
-            setPhoneNumber("+91-9538762310")
+            setDrivername("Mr Rohith")
+            setPhoneNumber("+91-934534310")
           }}
           icon={{
             url: "https://img.icons8.com/emoji/48/null/ambulance-emoji.png",
@@ -210,8 +210,8 @@ function Maparea(props) {
         <Marker
           onClick={()=>{
             setName("Ambulance 3")
-            setDrivername("Mr Shaam")
-            setPhoneNumber("+91-9538762310")
+            setDrivername("Mr Allen")
+            setPhoneNumber("+91-9534543310")
           }}
           icon={{
             url: "https://img.icons8.com/emoji/48/null/ambulance-emoji.png",
