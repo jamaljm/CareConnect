@@ -35,6 +35,8 @@ Are you tired of spending hours on the phone trying to book a doctor's appointme
 - [Riya](https://github.com/milkbreadzee)
 
 # PROJECT UI
+![ui_image_1](https://user-images.githubusercontent.com/115868723/211191931-dc286034-8777-4c16-b8f5-4e141f507c8f.png)
+
 
 
 In conclusion, Care Connect is a revolutionary web app that aims to transform the way we access primary healthcare.We believe that Care Connect has the potential to greatly improve the healthcare industry, and we are excited to see how it will continue to evolve and benefit people around the world. Thank you for considering Care Connect for your healthcare needs.
