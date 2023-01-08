@@ -57,3 +57,11 @@ Click the image
 
 In conclusion, Care Connect is a revolutionary web app that aims to transform the way we access primary healthcare.We believe that Care Connect has the potential to greatly improve the healthcare industry, and we are excited to see how it will continue to evolve and benefit people around the world. Thank you for considering Care Connect for your healthcare needs.
 
+# Steps To Run the Project:
+
+```bash
+git clone https://github.com/jamaljm/CareConnect.git
+npm install
+npm run dev
+```
+
