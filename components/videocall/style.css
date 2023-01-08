@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+  background-image: linear-gradient(180deg, white , rgb(239, 246, 247));
+
+  position: relative;
+  top: -50px;
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #19171a;
+  margin: 80px 10px;
+}
+
+video {
+  width: 40vw;
+  height: 30vw;
+  margin: 2rem;
+  background: #6f777c;
+  border-radius: 7px;
+  box-shadow: #19171a;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: red;
+}
+
+.button{
+  
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 530;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #1b3f67;
+  background-color: #fafbfc;
+  border-color: #d4e2f026;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+  
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #3571b5;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+  transition-duration: 0.1s;
+}
+
+
+.hangup{
+
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 530;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #1b3f67;
+  background-color: #fafbfc;
+  border-color: #d4e2f026;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+}
+.hangup:hover{
+  color: #ffffff;
+  background-color: #da3838; 
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+  transition-duration: 0.1s;
+}
+
+.inputfield{
+  
+  display: inline-block;
+  outline: 0;
+  
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 530;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #1b3f67;
+  background-color: #fafbfc;
+  border-color: #d4e2f026;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+}
