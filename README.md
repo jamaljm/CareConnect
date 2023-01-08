@@ -4,6 +4,10 @@
 Care Connect has a lot of useful features that can help people access primary healthcare more easily from home. Video chat and online consultation booking can allow people to have virtual appointments with healthcare providers, which can be very convenient and time-saving. The ambulance tracker shows a live location based map of all the nearby ambulances and also provides an option to contact them. The medicine finder functions helps people get useful resources they need in a timely manner just by uploading a photo of the medication.
 
 
+##
+## Live Demo
+ https://careconnect.vercel.app
+
 ## Key features
 1. Initial diagnosis(done in site) along with previous medical records is already given to the doctor before the actual consultation
 2. Medicine finder based on image using AI model
@@ -12,9 +16,7 @@ Care Connect has a lot of useful features that can help people access primary he
 5. Map showing nearest ambulances along with option to contact them
 
 
-##
-## Live Demo
-Link - https://careconnect.vercel.app
+
 
 ## Bussiness Model and Future Expansions
 - Commision from the consulting and booking services
