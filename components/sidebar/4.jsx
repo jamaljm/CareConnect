@@ -34,7 +34,7 @@ export default function Sidebar() {
                                 Ambulance
                             </span>
                         </Link>
-                        <Link className="flex items-center justify-start w-full p-4 my-2 font-thin text-blue-500 uppercase transition-colors duration-200 border-r-4 border-blue-500 bg-gradient-to-r from-white to-blue-100" href="/medicine">
+                        <Link className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-white hover:bg-blue-300" href="/medicine">
                             <span className="text-left">
                                 <img alt='' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVR4nOXWy2sTQRwH8F/V4oNCkQqiIP4RSYMtSA7NIUIphZ1JTJt2VsUIFUU8FaEEL57Ek5ei3bWFiBS9+AaheYmlWl9oqdWGsLupkEtFsTRK7Vc2NcXUfcT2JH5hLsuP+bC/mZ1Zov8u8Hj21FTn929bP+L1Bmqqa24OuRcNUxNUasMobber8SO+RSrIgunitmTIk0wXt7gmh+OIb3IHErQTCn2ESoBC41Y1PBdrZLqc5PnTCL9JIPLiEcJvR8C0k2C6uBN8f2qrM6LSgTKwgixjkHasBSRDngh9OI/u9BdEx7A6ujPzYPmzkAz5ojMySPVQ6D4UWoJKl2yB1EIVUBmRiecmssiLfQ3ubRulzdZAHNH0V0ugPJLfwPSjkApyq/XELS37rZ5XAObwBqsjVSojvNDTYo14vX47oGMmjl3X5xHKGo5I5Okzc/EX2udiVWtpm7UtCoxNo3G4hFDGBsp8AsufgaSLC+sCKhMFTOhaCTyjVQPpz+C5c2CGeBibjNWjtXUvfL6D9kCxr8FpkQNrod8AkRflIwVEdfB46m0RyRBKaHbAcZHbTGhkEezxNHiuvwpwzeHcsd2SLi91PZl13kVjQFv6JYLv/hJYeYveQ0w7gWhy2RlJ/9miSqDQPqg0gKtk+UkQ10WQazFEkz/WBZiBQuqvoylBVuks9DRJhvjeNT5ju015rt88Oh7YtQhD1A6FXkOlTrILM+TL5kTd2WL1AZidcwVqCny+HnMCpot7ZtvCU0OIvLqL8NQVMP04mC7f3BBQrVEdN44wyRA3JEOkJEMkuNbbYT53uylrvUE3dOejxn+BfzM/AbSGnKlUiuldAAAAAElFTkSuQmCC"/>
                             </span>
@@ -42,7 +42,7 @@ export default function Sidebar() {
                                 Medicine Finder
                             </span>
                       </Link>
-                        <Link className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-white hover:bg-blue-300" href="/videocallpage">
+                        <Link className="flex items-center justify-start w-full p-4 my-2 font-thin text-blue-500 uppercase transition-colors duration-200 border-r-4 border-blue-500 bg-gradient-to-r from-white to-blue-100" href="/videocallpage">
                             <span className="text-left">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAABoUlEQVR4nO3Uu0/CQADHcfwDaCKByquAo7sJ1X/BuAAt7wqFmTP+CzrKqIK8H/KyTDoYJzfF8N9wJk6eOQpXCtVjh0s+S4fvL016NZm2Z3OPb5i98inZ8fpkwqvII48iB9cYyUz2h1lEKFgG+RY9zsmEdzDTl58MsjsW4D/QRpQMpIYGWBp5+3qefhpxvdTzYt0Mjo8Y4H83A/6LPPQOZEgLeXqpVV2VuytNR3YvDjkG8E0G8D8M4JE5x0My4umn4f+hM8TNdRZJU65W4oUB/DUD/N84Pqcf6aYgRwlxDxJy6ySRu61y1qKfi3HDEa4jQRzSRyQSmXNhLSyh4yhH6CPudhLSQq6mytmMaxoq9iY4YnL+t2Xmc/6VjLhacWgYaiyLIWc9hhxLbPlT+ps46zFICzlqUR07VlVZ8yf0EUctCg1Ds4i9GtFUNHtTYcQWQvSvy16JwL9DYVXZQElELHYv0u8JWxahYagkaqESCc4IhK0o0G88WxInqyFhOYQ0IVWBoP+7bEXh0lYQxpqgISt2F9C7DXxYCsGAwcj2bPr5BeSsZmfbtrlvAAAAAElFTkSuQmCC"/>                            </span>
                             <span className="mx-4 text-sm font-medium font-body">

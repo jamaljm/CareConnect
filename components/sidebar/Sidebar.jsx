@@ -41,6 +41,13 @@ export default function Sidebar() {
                             <span className="mx-4 text-sm font-medium font-body">
                                 Medicine Finder
                             </span>
+                      </Link>
+                        <Link className="flex items-center justify-start w-full p-4 my-2 font-thin text-gray-500 uppercase transition-colors duration-200 hover:text-white hover:bg-blue-300" href="/videocallpage">
+                            <span className="text-left">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAABoUlEQVR4nO3Uu0/CQADHcfwDaCKByquAo7sJ1X/BuAAt7wqFmTP+CzrKqIK8H/KyTDoYJzfF8N9wJk6eOQpXCtVjh0s+S4fvL016NZm2Z3OPb5i98inZ8fpkwqvII48iB9cYyUz2h1lEKFgG+RY9zsmEdzDTl58MsjsW4D/QRpQMpIYGWBp5+3qefhpxvdTzYt0Mjo8Y4H83A/6LPPQOZEgLeXqpVV2VuytNR3YvDjkG8E0G8D8M4JE5x0My4umn4f+hM8TNdRZJU65W4oUB/DUD/N84Pqcf6aYgRwlxDxJy6ySRu61y1qKfi3HDEa4jQRzSRyQSmXNhLSyh4yhH6CPudhLSQq6mytmMaxoq9iY4YnL+t2Xmc/6VjLhacWgYaiyLIWc9hhxLbPlT+ps46zFICzlqUR07VlVZ8yf0EUctCg1Ds4i9GtFUNHtTYcQWQvSvy16JwL9DYVXZQElELHYv0u8JWxahYagkaqESCc4IhK0o0G88WxInqyFhOYQ0IVWBoP+7bEXh0lYQxpqgISt2F9C7DXxYCsGAwcj2bPr5BeSsZmfbtrlvAAAAAElFTkSuQmCC"/>                            </span>
+                            <span className="mx-4 text-sm font-medium font-body">
+                                Video call
+                            </span>
                         </Link>
                         
                     </div>

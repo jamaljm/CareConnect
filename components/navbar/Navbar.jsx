@@ -16,8 +16,9 @@ export default function Navbar() {
      <header className="z-40 items-center w-full h-16 bg-white shadow-lg  rounded-2xl">
                 <div className="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center">
                     <div className="relative flex items-center w-full pl-1 lg:max-w-68 sm:pr-2 sm:ml-0">
-                        <div className="container relative left-0 z-50 flex w-3/4 h-full">
-                            <div className="relative flex items-center w-full h-full lg:w-64 group">
+          <div className="container relative left-0 z-50 flex w-3/4 h-full">
+           <Link href="/dashboard"> <img src='/images/logo.png' alt="logo" className="w-40 sm:hidden" /></Link>
+            <div className="relative items-center w-full h-full lg:w-64 group hidden sm:flex">
                                 <div className="absolute z-50 flex items-center justify-center w-auto h-10 p-3 pr-2 text-sm text-gray-500 uppercase cursor-pointer sm:hidden">
                                     <svg fill="none" className="relative w-5 h-5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24">
                                         <path d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z">

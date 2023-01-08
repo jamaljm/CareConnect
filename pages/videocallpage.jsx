@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Sidebar from '../components/sidebar/Sidebar'
+import Sidebar from '../components/sidebar/4'
 import Navbar from '../components/navbar/Navbar'
 import Card from '../components/ambulance/Ambcard'
 import Ambulancebanner from '../components/ambulance/Maparea'
