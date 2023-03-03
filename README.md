@@ -1,4 +1,4 @@
-# CareConnect - SHE BUILDS 
+# CareConnect 
 
 ## Live Demo
  https://careconnect.vercel.app
